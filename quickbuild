@@ -1,0 +1,4 @@
+#!/bin/bash
+./cmakeconfig.py --mpi --fc=mpif90 --cc=mpicc --lua=$LUA_ROOT --hdf5=$HDF5_ROOT --det-size="64" --pop-size="64" --exe-name="hande.cmake.chris.x"
+cd build
+make

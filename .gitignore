@@ -41,6 +41,10 @@ build/
 RDM
 BLOCKING
 
+.vscode/
+src/*.mod
+src/*.o
+
 # Build directories
 *build*/
 
